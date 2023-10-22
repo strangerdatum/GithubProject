@@ -34,7 +34,7 @@ variables:
     -Dcloud.token=$(talend_cloud_token)
     -Dcloud.publisher.screenshot=true
     -Dcloud.publisher.environment=$(environment)
-    -Dcloud.publisher.workspace=Azure_Project
+    -Dcloud.publisher.workspace=SampleProject
     
  #-Dstudio.encryption.keys.file=$(studio_keys.secureFilePath)
 
