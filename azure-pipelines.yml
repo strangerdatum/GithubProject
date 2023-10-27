@@ -26,6 +26,7 @@ variables:
 
 - name: talend_ci_config
   value: >-
+    -Djob.signature.verifying=true
     -Dlicense.path=$(license.secureFilePath)
     -Dtalend.studio.p2.base=$(p2_base_url)
     -Dtalend.studio.p2.update=$(p2_update_url)
